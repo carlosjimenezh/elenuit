@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+margin:0px;
+padding: 0;
+height:100%;
+font-family: 'opensans',Arial, sans-serif;
+text-align:justify;
+color:#6C6C6C;
+font-weight: normal;
+font-size:14px
+}
+
+h1 {font-size: 30px;}
+h2 {font-size: 20px;}
+h3 {font-size: 18px;}
+.w3-button:hover{background-color:#E9953F!important; color:#fff!important; }
+.w3-button{transition-duration:0.5s}
+.aviso{ font-weight:bold; text-align:center; margin:auto}
+table{border-spacing: 0;}
+th, td {
+    padding: 0px; border-collapse: collapse;
+}
+
+hr{ border:#333 solid 1px;}
+
+.cuerpo{ margin:auto; min-height:300px;}
+.contenido{
+	max-width:1200px;
+	margin:10px auto; padding:0 14px
+}
+@media only screen and (min-width:601px){
+	.cflex{display: -webkit-flex; /* Safari */
+		display: flex;}
+}
+.mitadder{
+	padding-left:10px;
+}
+.mitadizq{
+	padding-right:10px;
+}
+.mitadcentro{
+	padding:0 5px
+}
+.mitad{width:50%; float:left}
+@media only screen and (max-width:600px){
+	.cuerpo{
+		margin:0 10px
+	}
+	.contenido{
+		margin:10px 10px
+	}
+	.mitadder{
+		margin-top:1.5em; padding-left:0
+	}
+	.mitadizq{
+		padding-right:0
+	}
+	.mitadcentro{
+		margin-top:1.5em; padding-right:0; padding-left:0}
+	.centrar-small{ text-align:center!important}
+	h1{ font-size:50px}
+	h2{ font-size:45px}
+	h3{ font-size:18px}
+	
+}
+.imgmax{
+	max-width:100%; margin:auto
+}
+.margensupinf{margin:56px auto}
+.margensup{margin-top:56px}
+
+.icored{
+	vertical-align:bottom; width:21px; margin:auto 5px!important
+}
+.redondeado{border-radius: 6px;}
+@media only screen and (max-width:600px){
+	.icored{
+		width:16px; padding-top: 10px;
+	}
+}
+
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fuentes/opensans-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'opensans';
+    src: url('fuentes/opensans-bold.woff') format('woff');
+    font-weight:700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'opensans';
+    src: url('fuentes/opensans-extrabold.woff') format('woff');
+    font-weight:900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dancingscript';
+    src: url('fuentes/dancingscript-regular.woff2') format('woff2'),
+         url('fuentes/dancingscript-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
