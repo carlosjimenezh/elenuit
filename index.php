@@ -10,7 +10,7 @@
 <body>
     <?php include("header.html"); ?>
     
-    
+    <h1>prueba</h1>
 
     <?php include("footer.html"); ?>
 </body>
