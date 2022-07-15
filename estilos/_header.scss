@@ -1,0 +1,10 @@
+@use 'colores';
+@use 'mixin';
+
+header {
+    background-color: colores.$color-principal;
+    a {
+        @include mixin.no-decoration;
+    }
+}
+
