@@ -10,8 +10,8 @@ footer {
     }
     .mitadder {
         padding-left: 20px;
-        span {
-            @include mixin.imagen-fondo('assets/icon-prueba.png');
+        .icono {
+            @include mixin.imagen-fondo('assets/icon-prueba.png', 25px, 25px);
         }
     }
 }
