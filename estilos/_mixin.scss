@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 
-@mixin imagen-fondo ($imagen, $ancho: 100%, $alto: 100%) {
+@mixin imagen-fondo ($imagen, $ancho: 100%, $alto: 100vh) {
     background-image: url($imagen);
     background-position: center;
     background-repeat: no-repeat;
