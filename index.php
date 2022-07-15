@@ -10,7 +10,9 @@
 <body>
     <?php include("header.php"); ?>
     
-    <h1>prueba</h1>
+    <main id="index">
+        <div class="img-principal"></div>
+    </main>
 
     <?php include("footer.php"); ?>
 </body>
