@@ -1,0 +1,7 @@
+@use 'mixin';
+
+#index {
+    .img-principal {
+        @include mixin.imagen-fondo('assets/prueba.png');
+    }
+}
