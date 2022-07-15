@@ -3,3 +3,12 @@
 @mixin no-decoration {
     text-decoration: none;
 }
+
+@mixin imagen-fondo ($imagen, $ancho: 100%, $alto: 100%) {
+    background-image: url($imagen);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: $ancho;
+    height: $alto;
+}
