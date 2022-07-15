@@ -14,23 +14,23 @@
         <div class="w3-half mitadder">
             <h3>Tienda Guadalajara</h3>
             <div>
-                <span class="icono tel"></span>
+                <i class="icono tel"></i>
                 Tel. 33 3629 5481
             </div>
             <div>
-                <span class="icono wa"></span>
+                <i class="icono wa"></i>
                 Whatsapp 33 3104 2123
             </div>
             <div>
-                <span class="icono dir"></span>
+                <i class="icono dir"></i>
                 Av. Ludwig Van Beethoven 5022, La Estancia, 45030 Zapopan, Jal.
             </div>
             <div>
-                <span class="icono mail"></span>
+                <i class="icono mail"></i>
                 guadalajara@elenuit.com
             </div>
             <div>
-                <span class="icono clock"></span>
+                <i class="icono clock"></i>
                 Lunes-Viernes 12pm-8pm <br> Sábado 10am-6pm
             </div>
         </div>
