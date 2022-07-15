@@ -1,0 +1,18 @@
+@use 'colores';
+@use 'mixin';
+
+
+footer {
+    background-color: colores.$color-footer;
+    padding: 30px 0;
+    .mitadizq {
+        padding-right: 20px;
+    }
+    .mitadder {
+        padding-left: 20px;
+        span {
+            @include mixin.imagen-fondo('assets/icon-prueba.png');
+        }
+    }
+}
+
