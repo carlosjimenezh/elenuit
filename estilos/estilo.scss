@@ -3,12 +3,14 @@
 @use 'fuentes';
 @use 'clases';
 @use 'header';
+@use 'footer';
+@use 'index';
+@use 'mixin';
  
 $fuente: 'montserrat',Arial, sans-serif;
 
 * {
-    margin: 0;
-    padding: 0;
+    @include mixin.reset();
 }
 
 
@@ -22,8 +24,5 @@ h1, h2, h3 {
 }
 
 @media only screen and (max-width:600px){
-	.contenido{
-		margin:10px 10px
-	}
 }
 
