@@ -11,7 +11,20 @@
     <?php include("header.php"); ?>
     
     <main id="index">
-        <div class="img-principal"></div>
+        <div class="img-principal">
+            <div class="w3-display-middle">
+                <div>
+                    Selecciona tu ciudad <br>
+                    <select name="ciudad" id="ciudad">
+                        <option value="guadalajara">Guadalajara</option>
+                        <option value="guzmana">Ciudad Guzmán</option>
+                    </select> <br>
+                    <button class="btn">
+                        Ingresar
+                    </button>
+                </div>
+            </div>
+        </div>
     </main>
 
     <?php include("footer.php"); ?>
