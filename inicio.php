@@ -13,69 +13,96 @@
         include('header.php'); 
     ?>
     <main id="inicio">
-        <div class="contenido">
-            <h1>Tienda Guadalajara</h1>
-            <select name="" id=""></select>
-            <select name="" id=""></select>
-            <select name="" id=""></select>
-            <select name="" id=""></select>
-            <select name="" id=""></select>       
+        <div class="contenido w3-center">
+            <h2>Tienda Guadalajara</h2>
+            <div class="select-wrapper">
+                <label for="color">Color</label>
+                <select name="color" id="color">
+                    <option value="negro">negro</option>
+                </select>
+            </div>
+            <div class="select-wrapper">
+                <label for="talla">Talla</label>
+                <select name="talla" id="talla">
+                    <option value="negro">negro</option>
+                </select>
+            </div>
+            <div class="select-wrapper">
+                <label for="marca">Marca</label>
+                <select name="marca" id="marca">
+                    <option value="negro">negro</option>
+                </select>
+            </div>
+            <br>
+            <div class="select-wrapper">
+                <label for="fecha-inicio">Me interesa rentar el día</label>
+                <select name="fecha-inicio" id="fecha-inicio">
+                    <option value="negro">negro</option>
+                </select>
+            </div>
+            <div class="select-wrapper">
+                <label for="fecha-fin">al día</label>
+                <select name="fecha-fin" id="fecha-fin">
+                    <option value="negro">negro</option>
+                </select>
+            </div>
         </div>
-        <div class="w3-row contenido">
+
+        <div class="items-wrapper w3-row contenido">
             <div class="w3-col m3 s6">
                 <div class="item w3-center">
                     <img src="assets/item.png" alt="">
                     Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
-                    <button class="btn">prueba</button>
+                    <button class="btn disponible">Disponible</button>
                 </div>
             </div>
             <div class="w3-col m3 s6">
                 <div class="item w3-center">
                     <img src="assets/item.png" alt="">
                     Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
-                    <button class="btn">prueba</button>
+                    <button class="btn disponible">Disponible</button>
                 </div>
             </div>
             <div class="w3-col m3 s6">
                 <div class="item w3-center">
                     <img src="assets/item.png" alt="">
                     Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
-                    <button class="btn">prueba</button>
+                    <button class="btn no-disponible">No&nbsp;Disponible</button>
                 </div>
             </div>
             <div class="w3-col m3 s6">
                 <div class="item w3-center">
                     <img src="assets/item.png" alt="">
                     Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
-                    <button class="btn">prueba</button>
+                    <button class="btn disponible">Disponible</button>
                 </div>
             </div>
             <div class="w3-col m3 s6">
                 <div class="item w3-center">
                     <img src="assets/item.png" alt="">
                     Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
-                    <button class="btn">prueba</button>
+                    <button class="btn no-disponible">No&nbsp;Disponible</button>
                 </div>
             </div>
             <div class="w3-col m3 s6">
                 <div class="item w3-center">
                     <img src="assets/item.png" alt="">
                     Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
-                    <button class="btn">prueba</button>
+                    <button class="btn disponible">Disponible</button>
                 </div>
             </div>
             <div class="w3-col m3 s6">
                 <div class="item w3-center">
                     <img src="assets/item.png" alt="">
                     Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
-                    <button class="btn">prueba</button>
+                    <button class="btn disponible">Disponible</button>
                 </div>
             </div>
             <div class="w3-col m3 s6">
                 <div class="item w3-center">
                     <img src="assets/item.png" alt="">
                     Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
-                    <button class="btn">prueba</button>
+                    <button class="btn disponible">Disponible</button>
                 </div>
             </div>
         </div>
