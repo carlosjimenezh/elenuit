@@ -18,11 +18,63 @@
             <select name="" id=""></select>
             <select name="" id=""></select>       
         </div>
-        <div class="items-wrapper">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
+        <div class="w3-row contenido">
+            <div class="w3-col m3 s6">
+                <div class="item w3-center">
+                    <img src="assets/item.png" alt="">
+                    Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
+                    <button class="btn">prueba</button>
+                </div>
+            </div>
+            <div class="w3-col m3 s6">
+                <div class="item w3-center">
+                    <img src="assets/item.png" alt="">
+                    Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
+                    <button class="btn">prueba</button>
+                </div>
+            </div>
+            <div class="w3-col m3 s6">
+                <div class="item w3-center">
+                    <img src="assets/item.png" alt="">
+                    Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
+                    <button class="btn">prueba</button>
+                </div>
+            </div>
+            <div class="w3-col m3 s6">
+                <div class="item w3-center">
+                    <img src="assets/item.png" alt="">
+                    Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
+                    <button class="btn">prueba</button>
+                </div>
+            </div>
+            <div class="w3-col m3 s6">
+                <div class="item w3-center">
+                    <img src="assets/item.png" alt="">
+                    Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
+                    <button class="btn">prueba</button>
+                </div>
+            </div>
+            <div class="w3-col m3 s6">
+                <div class="item w3-center">
+                    <img src="assets/item.png" alt="">
+                    Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
+                    <button class="btn">prueba</button>
+                </div>
+            </div>
+            <div class="w3-col m3 s6">
+                <div class="item w3-center">
+                    <img src="assets/item.png" alt="">
+                    Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
+                    <button class="btn">prueba</button>
+                </div>
+            </div>
+            <div class="w3-col m3 s6">
+                <div class="item w3-center">
+                    <img src="assets/item.png" alt="">
+                    Talla S <br> Maniju <br> LVERSMAN-11 <br> Precio Renta: $ 500 <br>
+                    <button class="btn">prueba</button>
+                </div>
+            </div>
         </div>
     </main>
     <?php include('footer.php'); ?>
