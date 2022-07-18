@@ -6,6 +6,7 @@
 @use 'footer';
 @use 'index';
 @use 'mixin';
+@use 'rentar';
  
 $fuente: 'montserrat',Arial, sans-serif;
 
@@ -23,6 +24,18 @@ h1, h2, h3 {
     font-family: $fuente;
 }
 
+h2 {font-weight: bold;}
+
+strong {
+    color: colores.$color-strong;
+}
+
+#inicio, #rentar {
+    margin-top: 77px;
+}
+
+
 @media only screen and (max-width:600px){
+    h2 {font-size: 20px}
 }
 
