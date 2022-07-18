@@ -3,8 +3,19 @@
 
 header {
     background-color: colores.$color-principal;
-    a {
-        @include mixin.no-decoration;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            @include mixin.no-decoration;
+            color: white;
+            font-size: 20px;
+            margin: 0 10px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
     }
 }
 
