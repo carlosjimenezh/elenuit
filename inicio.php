@@ -8,7 +8,10 @@
     <title>Inicio</title>
 </head>
 <body>
-    <?php include('header.php'); ?>
+    <?php 
+        $sec = 1;
+        include('header.php'); 
+    ?>
     <main id="inicio">
         <div class="contenido">
             <h1>Tienda Guadalajara</h1>

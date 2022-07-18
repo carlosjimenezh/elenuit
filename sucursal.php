@@ -8,7 +8,10 @@
     <title>Sucursal</title>
 </head>
 <body>
-    <?php include('header.php'); ?>
+    <?php 
+        $sec = 3;
+        include('header.php'); 
+    ?>
     <main id="rentar">
         <div class="contenido">
             <h1>Cómo puedo <strong>rentar</strong> un vestido Elenuit</h1>

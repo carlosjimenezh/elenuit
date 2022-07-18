@@ -8,7 +8,10 @@
     <title>Cómo rentar</title>
 </head>
 <body>
-    <?php include('header.php'); ?>
+    <?php 
+        $sec = 2; 
+        include('header.php');
+    ?>
     <main id="rentar">
         <div class="contenido">
             <h2 class="w3-center">¿Cómo puedo <strong>rentar</strong> un vestido Elenuit?</h2>
