@@ -1,10 +1,23 @@
 
 #inicio {
+    h2 {
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
     .select-wrapper {
         display: inline-block;
         select {
-            background: red;
-            width: 150px;
+            margin: 0 15px 15px;
+            height: 30px;
+            width: 140px;
+        }
+    }
+    .items-wrapper {
+        margin-bottom: 80px;
+        .item {
+            button {
+                margin-top: 10px;
+            }
         }
     }
 }
